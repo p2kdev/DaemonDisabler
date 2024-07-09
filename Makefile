@@ -1,6 +1,8 @@
-THEOS_DEVICE_IP = 192.168.1.65
+export THEOS_PACKAGE_SCHEME=rootless
+export TARGET = iphone:clang:13.7:13.0
+export FINALPACKAGE=1
 
-ARCHS = armv7 arm64 arm64e
+export THEOS_DEVICE_IP = 192.168.86.37
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 

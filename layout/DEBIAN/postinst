@@ -1,3 +1,2 @@
-chmod 4755 /usr/libexec/launchctl_wrapper
-chown 0:0 /usr/libexec/launchctl_wrapper
-ldid -S/var/lib/dpkg/info/com.level3tjg.daemondisabler.ent /usr/libexec/launchctl_wrapper
+chmod 4755 /var/jb/usr/libexec/launchctl_wrapper
+chown 0:0 /var/jb/usr/libexec/launchctl_wrapper
